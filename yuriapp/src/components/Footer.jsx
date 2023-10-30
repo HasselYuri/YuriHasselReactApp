@@ -1,5 +1,7 @@
 // import { Link } from "react-router-dom";
 
+import { Link } from "react-router-dom";
+
 export default function Footer() {
     return (
         <footer>
@@ -21,7 +23,10 @@ export default function Footer() {
                         <h3>Careers</h3>
 
                     </div>
-                    <div className="col-lg-3 item social"><a href="#"><i className="icon ion-social-facebook"></i></a><a href="#"><i className="icon ion-social-twitter"></i></a><a href="#"><i className="icon ion-social-snapchat"></i></a><a href="#"><i className="icon ion-social-instagram"></i></a>
+                    <div className="col-lg-3 item social">
+                        <Link to="https://www.facebook.com/yuri.hassel.1/" target="_blank"><i className="icon ion-social-facebook"></i></Link>
+                        <br></br>
+                        <Link to="https://www.instagram.com/hassel.yuri/"><i className="icon ion-social-instagram" target="_blank"></i></Link>
                         <p className="copyright">Yuri Hassel © 2023</p>
                     </div>
                 </div>
